@@ -1,0 +1,27 @@
+//removing consexccutive occurence of a charcter and reducing it to one 
+
+
+function removeConsecutiveCharacter(s){
+        //code here
+        
+        let arr=[];
+        let res="";
+        for ( let i=0 ; i < s.length ; i++){
+            if (s.charAt(i)==s.charAt(i+1)){
+                let j=i;
+                while (s.charAt(j)==s.charAt(j+1)){
+                    res=res.concat("");
+                    j++;
+                    
+                }
+            }
+            else{
+                res=res.concat(s.charAt(i));
+            }
+        }
+        console.log(res);
+
+}
+
+
+removeConsecutiveCharacter("aabaa")
