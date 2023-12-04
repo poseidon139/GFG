@@ -2,10 +2,13 @@
 
 function remAnagram(str1, str2){
     // code here
-   
+    
+     
+
 }
 
 
 
 
-console.log(remAnagram("cddgk","gcd"))
+console.log(remAnagram("bcadeh","hea"))
+
