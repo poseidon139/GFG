@@ -1,17 +1,19 @@
 //find the sum of all the digits that appears in a string 
    //Function to calculate sum of all numbers present in a string.
    function findSum(str)
-   {
-       // code here
-       let count=0;
-       const reg=new RegExp("[0-9]") 
-       for (i of str){
-        if (reg.test(i)){
-            let count_n=0;
-            while(reg.test(i))
-            count+=Number.parseInt(i);
+   {    
+       const re = "[0-9]";
+        let sum=0;
+        for ( let i=0 ; i < str.length ; i++){
+            let number=0;
+            while ( (str.charAt(i)).match(re)){
+                number=number*10+Number.parseInt(str.charAt(i));
+                i++;
+            }
+            sum = sum + number;
+
+
         }
-       }
-       return count;
+        return sum;
    }
 console.log(findSum("dk1jff1234"))
