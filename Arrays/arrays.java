@@ -6,6 +6,6 @@ class arrays{
     for( int i =0 ; i < 10 ; i++){
          arr[i]=i;
     } 
-    System.out.println(arr);
+    System.out.println("Remote Connection Successfull !!");
   }
 }
