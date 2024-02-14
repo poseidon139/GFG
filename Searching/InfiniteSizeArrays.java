@@ -33,27 +33,36 @@ public class InfiniteSizeArrays {
 
     public static int InfiniteSizeArraysFunc(int[] arr, int x){
         int pos=-1;
-        int low=0; 
-        int high= 1;
-        if (x==arr[0]){
+        int i=1;
+        if (arr[0]==x){
             return 0;
         }
+        while(x<arr[i]){
+            i=i*2;
+        }
+        return binarySearch(arr,  i, x);
+
+    }
+    
+    public static int binarySearch(int arr[], int h, int x){
+        int pos=-1;
+        int low=0; 
+        int high=h;
         while (low<high){
-            int mid= (low+high)/2;
-            if (arr[mid]==x){
+            int mid= (low +high)/2;
+            if( arr[mid]==x){
                 pos=mid;
             }
-            else if (x<arr[mid]){
-                high= mid-1;
+            else if (arr[mid]>x){
+                high=mid-1;
             }
             else{
-                low= mid+1;
-                high=high*2;
+                low=mid+1;
             }
         }
-        return pos;
-    }
 
+        return pos; 
+    }
 
     public static void main(String[] args) {
         int[] arr={10,20,30,40,50,60,70};
