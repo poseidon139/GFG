@@ -1,0 +1,134 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteSizeArrays",
+            "request": "launch",
+            "mainClass": "InfiniteSizeArrays",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "gcd",
+            "request": "launch",
+            "mainClass": "Mathematics.gcd",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "arrays",
+            "request": "launch",
+            "mainClass": "arrays",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "checkFirstOccurence",
+            "request": "launch",
+            "mainClass": "checkFirstOccurence",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "checkLastOccurence",
+            "request": "launch",
+            "mainClass": "checkLastOccurence",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "checkSorted",
+            "request": "launch",
+            "mainClass": "checkSorted",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "countOnes",
+            "request": "launch",
+            "mainClass": "countOnes",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "findPeakElement",
+            "request": "launch",
+            "mainClass": "findPeakElement",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "frequency",
+            "request": "launch",
+            "mainClass": "frequency",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "maxSumSubarray",
+            "request": "launch",
+            "mainClass": "maxSumSubarray",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "secondLargest",
+            "request": "launch",
+            "mainClass": "secondLargest",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "sortedRotated",
+            "request": "launch",
+            "mainClass": "sortedRotated",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
+            "name": "squareRoot",
+            "request": "launch",
+            "mainClass": "squareRoot",
+            "projectName": "GFG_bea1dad8"
+        }
+    ]
+}
