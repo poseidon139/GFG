@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tripletSum",
+            "request": "launch",
+            "mainClass": "tripletSum",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
             "name": "twoSum",
             "request": "launch",
             "mainClass": "twoSum",
