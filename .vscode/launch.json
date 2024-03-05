@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "primitiveAndNonPrimitiveSorting",
+            "request": "launch",
+            "mainClass": "Sorting.primitiveAndNonPrimitiveSorting",
+            "projectName": "GFG_bea1dad8"
+        },
+        {
+            "type": "java",
             "name": "simpSort",
             "request": "launch",
             "mainClass": "Sorting.simpSort",
